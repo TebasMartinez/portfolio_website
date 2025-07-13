@@ -4,7 +4,7 @@ header {
   text-align: center;
 }
 
-.border-sucess {
+.border-success {
   --bs-border-opacity: 1;
   border-color: #82972F !important;
 }
@@ -38,7 +38,7 @@ body {
 }
 
 .contactform {
-  
+
 }
 
 footer {
