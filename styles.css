@@ -21,10 +21,16 @@ body {
   gap: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  width: 80%;
+  width: 90%;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .card-row {
+    justify-content: center;
+  }
 }
 
 .card {
