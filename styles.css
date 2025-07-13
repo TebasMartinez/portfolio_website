@@ -1,10 +1,45 @@
-html, body {
-  height: 100%;
-  margin: 0;
+header {
+  background-color: #413A3B;
+  color: white;
+  text-align: center;
+}
+
+.border-sucess {
+  --bs-border-opacity: 1;
+  border-color: #82972F !important;
 }
 
 body {
+  background-color: #EDCBB1;
+}
+
+.card {
+  background-color: #19535F;
+  height: 400px;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
+}
+
+.card-img-top {
+  height: 250px !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+.card-body {
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.btn {
+  background-color: #8AF3FF !important;
+  color: #19535F;
+}
+
+footer {
+  background-color: #413A3B;
+  color: white;
+  text-align: center;
 }
 
