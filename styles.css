@@ -18,7 +18,7 @@ body {
   flex-wrap: nowrap;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  gap: 3rem;
+  gap: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
   justify-content: center; /* center cards inside scroll */
