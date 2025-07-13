@@ -4,7 +4,9 @@
 As a final project for CS50x, I've decided to create my own portfolio website, which I plan to keep using after the course as I progress with learning Data Analytics and add more projects.
 
 ## CSS:
-- Using the Bootstrap CSS framework, modifying details in my styles.css file.
+- Using Bootstrap CSS framework.
+- Using CSS Flexbox layout.
+- Modifying details in my styles.css file.
 
 ### Colour palette:
 ![alt text](images/palette4.png) 
