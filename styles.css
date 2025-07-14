@@ -31,7 +31,7 @@ body {
   background-color: var(--color-background);
 }
 
-.card-row {
+.project-card-row {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
@@ -46,7 +46,7 @@ body {
 }
 
 @media (min-width: 768px) {
-  .card-row {
+  .project-card-row {
     justify-content: center;
   }
 }
