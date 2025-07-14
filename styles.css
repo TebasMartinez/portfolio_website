@@ -18,6 +18,17 @@ header {
   text-align: center;
 }
 
+.nav-link {
+  color: var(--color-secondary);
+}
+.nav-link:hover {
+  color: var(--color-accent);
+}
+
+.nav-link.active {
+  color: var(--color-background);
+}
+
 body {
   background-color: var(--color-background);
 }
