@@ -6,7 +6,12 @@
   --color-text: #413A3B;
 }
 
-//* SHARED ELEMENTS *//
+/* SHARED ELEMENTS */
+.border-success {
+  --bs-border-opacity: 1;
+  border-color: var(--color-accent) !important;
+}
+
 header {
   background-color: var(--color-primary);
   color: var(--color-accent);
@@ -23,10 +28,13 @@ footer {
   text-align: center;
 }
 
-//* INDEX *//
-.border-success {
-  --bs-border-opacity: 1;
-  border-color: var(--color-accent) !important;
+/* INDEX */
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
 .project-card-row {
@@ -73,7 +81,7 @@ footer {
   color: var(--color-accent);
 }
 
-//* ABOUT *//
+/* ABOUT */
 .intro-card {
   background-color: !important;
   border-color: var(--color-secondary);
@@ -84,7 +92,7 @@ footer {
   flex-direction: column;
 }
 
-//* CONTACT *//
+/* CONTACT */
 .contactform {
   width: 50%;
 }
