@@ -1,16 +1,34 @@
+:root {
+  --color-primary: #19535F;
+  --color-secondary: #8AF3FF;
+  --color-background: #EDCBB1;
+  --color-accent: #82972F;
+  --color-text: #413A3B;
+}
+
 header {
-  background-color: #413A3B;
-  color: white;
+  background-color: var(--color-primary);
+  color: var(--color-accent);
   text-align: center;
+}
+
+.intro-card {
+  background-color: !important;
+  border-color: var(--color-secondary);
+  color: var(--color-background);
+  height: 130px !important;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
 }
 
 .border-success {
   --bs-border-opacity: 1;
-  border-color: #82972F !important;
+  border-color: var(--color-accent) !important;
 }
 
 body {
-  background-color: #EDCBB1;
+  background-color: var(--color-background);
 }
 
 .card-row {
@@ -34,7 +52,7 @@ body {
 }
 
 .card {
-  background-color: #19535F;
+  background-color: var(--color-primary);
   height: 400px;
   overflow: hidden;
   display: flex;
@@ -53,8 +71,8 @@ body {
 }
 
 .btn {
-  background-color: #8AF3FF !important;
-  color: #19535F;
+  background-color: var(--color-secondary) !important;
+  color: var(--color-accent);
 }
 
 .contactform {
@@ -63,6 +81,6 @@ body {
 
 footer {
   background-color: #413A3B;
-  color: white;
+  color: var(--color-accent);
   text-align: center;
 }
