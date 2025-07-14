@@ -1,6 +1,7 @@
 # PORTFOLIO WEBSITE
 #### Video Demo:  <URL HERE>
 ## Description:
+\[ WORK IN PROGRESS \] \
 As a final project for CS50x, I've decided to create my own portfolio website, which I plan to keep using after the course as I progress with learning Data Analytics and add more projects.
 
 ## CSS:
