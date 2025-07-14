@@ -6,29 +6,27 @@
   --color-text: #413A3B;
 }
 
+//* SHARED ELEMENTS *//
 header {
   background-color: var(--color-primary);
   color: var(--color-accent);
   text-align: center;
 }
 
-.intro-card {
-  background-color: !important;
-  border-color: var(--color-secondary);
-  color: var(--color-background);
-  height: 130px !important;
-  width: 70%;
-  display: flex;
-  flex-direction: column;
+body {
+  background-color: var(--color-background);
 }
 
+footer {
+  background-color: #413A3B;
+  color: var(--color-accent);
+  text-align: center;
+}
+
+//* INDEX *//
 .border-success {
   --bs-border-opacity: 1;
   border-color: var(--color-accent) !important;
-}
-
-body {
-  background-color: var(--color-background);
 }
 
 .project-card-row {
@@ -75,12 +73,18 @@ body {
   color: var(--color-accent);
 }
 
-.contactform {
-  width: 50%;
+//* ABOUT *//
+.intro-card {
+  background-color: !important;
+  border-color: var(--color-secondary);
+  color: var(--color-background);
+  height: 130px !important;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
 }
 
-footer {
-  background-color: #413A3B;
-  color: var(--color-accent);
-  text-align: center;
+//* CONTACT *//
+.contactform {
+  width: 50%;
 }
