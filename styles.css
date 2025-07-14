@@ -8,11 +8,6 @@
 
 /* SHARED ELEMENTS */
 
-html, body {
-  margin: 0;
-  padding: 0;
-}
-
 .border-success {
   --bs-border-opacity: 1;
   border-color: var(--color-accent) !important;
@@ -22,6 +17,10 @@ header {
   background-color: var(--color-primary);
   color: var(--color-accent);
   text-align: center;
+}
+
+.one-line {
+  font-size: clamp(1rem, 2.5vm, 2rem);
 }
 
 .nav-link {
