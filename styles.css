@@ -50,6 +50,7 @@ footer {
   background-color: #413A3B;
   color: var(--color-accent);
   text-align: center;
+  width: 100vw;
 }
 
 /* INDEX */
