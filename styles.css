@@ -35,9 +35,14 @@ header {
   color: var(--color-background);
 }
 
+main {
+  overflow-y: hidden;
+}
+
 body {
   background-color: var(--color-background);
   overflow-x: hidden;
+  overflow-y: auto;
 }
 
 footer {
@@ -59,6 +64,7 @@ footer {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
+  overscroll-behavior-x: contain;
   -webkit-overflow-scrolling: touch;
   gap: 1rem;
   padding-left: 1rem;
@@ -77,7 +83,8 @@ footer {
 
 .card {
   background-color: var(--color-primary);
-  height: 400px;
+  height: 100%;
+  max-height: 400px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -92,6 +99,7 @@ footer {
 .card-body {
   overflow-y: auto;
   flex-grow: 1;
+  max-height: calc(400px - 250px);
 }
 
 .btn {
