@@ -20,10 +20,6 @@ header {
   width: 100vw;
 }
 
-.one-line {
-  font-size: clamp(1rem, 2.5vm, 2rem);
-}
-
 .nav-link {
   color: var(--color-secondary);
 }
