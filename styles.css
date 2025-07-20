@@ -28,7 +28,7 @@ header {
 }
 
 .nav-link.active {
-  color: var(--color-background);
+  color: var(--color-background) !important;
 }
 
 main {
@@ -125,6 +125,12 @@ footer {
 
 .skills-card {
   width: 50%;
+
+}
+
+.skills-nav.active {
+  background-color: var(--color-secondary) !important;
+  color: var(--color-text) !important;
 }
 
 @media (max-width: 600px) { /* Only mobile */
