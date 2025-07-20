@@ -125,18 +125,28 @@ footer {
 
 .skills-card {
   width: 50%;
-
-}
-
-.skills-nav.active {
-  background-color: var(--color-secondary) !important;
-  color: var(--color-text) !important;
+  background-color: var(--color-background);
 }
 
 @media (max-width: 600px) { /* Only mobile */
   .skills-card {
     width: 85% !important;
   }
+}
+
+.skills-nav {
+    color: var(--color-text);
+}
+
+.skills-nav.active {
+  background-color: var(--color-primary) !important;
+  color: var(--color-secondary) !important;
+}
+
+.skill-list {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  border-color: var(--color-secondary);
 }
 
 /* CONTACT */
