@@ -114,6 +114,7 @@ footer {
   width: 70%;
   display: flex;
   flex-direction: column;
+  text-align: justify;
 }
 
 @media (max-width: 600px) { /* Only mobile */
