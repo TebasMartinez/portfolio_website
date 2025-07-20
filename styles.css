@@ -102,8 +102,8 @@ footer {
 }
 
 .btn {
-  background-color: var(--color-secondary) !important;
-  color: var(--color-accent);
+  background-color: var(--color-accent) !important;
+  color: var(--color-secondary);
 }
 
 /* ABOUT */
