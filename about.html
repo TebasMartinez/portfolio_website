@@ -26,7 +26,7 @@
                     <a class="nav-link active" aria-current="page" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="onlinecourses.html">onlinecourses</a>
                 </li>
             </ul>
         </header>
@@ -74,23 +74,29 @@
                     <div class="card-header">
                         <ul class="nav nav-tabs card-header-tabs">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="true" href="#">Active</a>
+                            <button class="nav-link active" id="nav-skills-tab" data-bs-toggle="tab" data-bs-target="#nav-skills" type="button" role="tab" aria-controls="nav-skills" aria-selected="true">Skills</button>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <button class="nav-link" id="nav-education-tab" data-bs-toggle="tab" data-bs-target="#nav-education" type="button" role="tab" aria-controls="nav-education" aria-selected="false">Education</button>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                            <button class="nav-link" id="nav-onlinecourses-tab" data-bs-toggle="tab" data-bs-target="#nav-onlinecourses" type="button" role="tab" aria-controls="nav-onlinecourses" aria-selected="false">Online Courses</button>
                         </li>
                         </ul>
                     </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="card-body tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-skills" role="tabpanel" aria-labelledby="nav-skills-tab" tabindex="0">
+                            <p>so i can write here?</p>
+                        </div>
+                        <div class="tab-pane fade" id="nav-education" role="tabpanel" aria-labelledby="nav-education-tab" tabindex="0">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                        <div class="tab-pane fade" id="nav-onlinecourses" role="tabpanel" aria-labelledby="nav-onlinecourses-tab" tabindex="0">...</div>
                     </div>
                 </div>
-             <div/>
+            <div/>
             
 
         </main>
