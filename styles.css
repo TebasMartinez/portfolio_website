@@ -81,15 +81,16 @@ footer {
 
 .card {
   background-color: var(--color-primary);
+  border-color: var(--color-secondary);
   height: 100%;
-  max-height: 400px;
+  max-height: 500px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
 }
 
 .card-img-top {
-  height: 250px !important;
+  height: 225px !important;
   width: 100% !important;
   object-fit: cover !important;
 }
@@ -97,7 +98,7 @@ footer {
 .card-body {
   overflow-y: auto;
   flex-grow: 1;
-  max-height: calc(400px - 250px);
+  max-height: 250px;
 }
 
 .btn {
