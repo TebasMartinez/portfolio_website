@@ -18,10 +18,13 @@ As a final project for CS50x, I've decided to create my own portfolio website, w
   - Added styles to self-defined classes: one-line, project-container, project-card-row, intro-card.
   - Used @media for different behaviour on desktop.
 - **Colour palette:** \
-[Link to palette online.](https://coolors.co/edcbb1-8af3ff-82972f-19535f-413a3b) \
-![alt text](images/palette4.png) 
+![alt text](images/palette4.png)
+
+Used coolors.co to define my site's palette: https://coolors.co/edcbb1-8af3ff-82972f-19535f-413a3b
 
 
-
-
-
+## JavaScript
+- **Used Bootstrap's tab JavaScript plugin.**
+  - Added navigational tabs with tabbable panes of local content inside one of the cards for skills, education, and online courses sections in about.html
+    - https://getbootstrap.com/docs/5.3/components/card/#navigation
+    - https://getbootstrap.com/docs/5.3/components/navs-tabs/#javascript-behavior
