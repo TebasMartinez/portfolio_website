@@ -116,7 +116,7 @@ footer {
   flex-direction: column;
 }
 
-@media (max-width: 600 px) { /* Only mobile */
+@media (max-width: 600px) { /* Only mobile */
   .intro-card {
     width: 95% !important;
   }
