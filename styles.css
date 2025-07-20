@@ -73,7 +73,7 @@ footer {
   margin-right: auto;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) { /* Only bigger screens */
   .project-card-row {
     justify-content: center;
   }
@@ -110,10 +110,16 @@ footer {
   background-color: !important;
   border-color: var(--color-secondary);
   color: var(--color-background);
-  height: 130px !important;
+  height: 130px;
   width: 70%;
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 600 px) { /* Only mobile */
+  .intro-card {
+    width: 95% !important;
+  }
 }
 
 /* CONTACT */
