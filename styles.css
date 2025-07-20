@@ -108,7 +108,6 @@ footer {
 
 /* ABOUT */
 .intro-card {
-  background-color: !important;
   border-color: var(--color-secondary);
   color: var(--color-background);
   height: 130px;
