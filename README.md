@@ -30,4 +30,4 @@ Used coolors.co to define my site's palette: https://coolors.co/edcbb1-8af3ff-82
     - https://getbootstrap.com/docs/5.3/components/navs-tabs/#javascript-behavior
 
 ## Favicon
-Created the image with Canva and adapted to favicon package with [favicon.io](https://favicon.io/favicon-converter/)
+Created the image with Canva and adapted it into the different sizes of a favicon package with [favicon.io](https://favicon.io/favicon-converter/)
