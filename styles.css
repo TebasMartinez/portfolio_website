@@ -122,6 +122,16 @@ footer {
   }
 }
 
+.skills-card {
+  width: 50%;
+}
+
+@media (max-width: 600px) { /* Only mobile */
+  .skills-card {
+    width: 85% !important;
+  }
+}
+
 /* CONTACT */
 .contactform {
   width: 50%;
