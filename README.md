@@ -28,3 +28,6 @@ Used coolors.co to define my site's palette: https://coolors.co/edcbb1-8af3ff-82
   - Added navigational tabs with tabbable panes of local content inside one of the cards for skills, education, and online courses sections in about.html
     - https://getbootstrap.com/docs/5.3/components/card/#navigation
     - https://getbootstrap.com/docs/5.3/components/navs-tabs/#javascript-behavior
+
+## Favicon
+Created the image with Canva and adapted to favicon package with [favicon.io](https://favicon.io/favicon-converter/)
