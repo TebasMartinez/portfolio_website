@@ -156,6 +156,12 @@ footer {
   width: 75%;
 }
 
+@media (max-width: 600px) { /* Only mobile */
+  .exp-list {
+    width: 90% !important;
+  }
+}
+
 .exp-badge {
   background-color: var(--color-text);
 }
