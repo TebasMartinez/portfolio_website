@@ -130,7 +130,7 @@ footer {
 
 @media (max-width: 600px) { /* Only mobile */
   .skills-card {
-    width: 85% !important;
+    width: 90% !important;
   }
 }
 
@@ -158,7 +158,7 @@ footer {
 
 @media (max-width: 600px) { /* Only mobile */
   .exp-list {
-    width: 90% !important;
+    width: 100% !important;
   }
 }
 
