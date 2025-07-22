@@ -43,7 +43,7 @@ body {
 }
 
 footer {
-  background-color: #413A3B;
+  background-color: var(--color-primary);
   color: var(--color-accent);
   text-align: center;
   width: 100vw;
@@ -147,6 +147,21 @@ footer {
   background-color: var(--color-background);
   color: var(--color-text);
   border-color: var(--color-secondary);
+}
+
+.exp-list {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  border-color: var(--color-secondary);
+  width: 75%;
+}
+
+.exp-badge {
+  background-color: var(--color-text);
+}
+
+.exp-desc {
+  text-align: justify;
 }
 
 /* CONTACT */

@@ -6,6 +6,7 @@ As a final project for CS50x, I've decided to create my own portfolio website, w
 
 ## HTML:
 
+- Bootstrap's Flush lists: https://getbootstrap.com/docs/5.3/components/list-group/#flush
 
 ## CSS:
 - **Used Bootstrap CSS framework.**
