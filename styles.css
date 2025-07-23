@@ -184,3 +184,10 @@ footer {
   border-style: hidden;
   margin-bottom: 1rem;
 }
+
+/* Impressum / Data */
+.imp {
+  width:max-content;
+  background-color: var(--color-background);
+  border-color: var(--color-primary);
+}
