@@ -185,6 +185,11 @@ footer {
   margin-bottom: 1rem;
 }
 
+.thanks {
+  width: max-content;
+  background-color: var(--color-background);
+}
+
 /* Impressum / Data */
 .imp {
   width:max-content;
