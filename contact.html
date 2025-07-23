@@ -47,7 +47,7 @@
                     <div class="card contactform">
                         <form>
                             <fieldset disabled>
-                                <legend>Contact</legend>
+                                <legend> <!-- Title to contact form, leaving it empty --> </legend>
                                 <div class="form-group mb-3">
                                     <label for="name" class="form-label">Name</label>
                                     <input type="name" class="form-control" id="name" placeholder="your name">
@@ -65,6 +65,7 @@
                                     <textarea class="form-control" id="message" rows="5" placeholder="your message here..." style="resize: none; overflow-y: auto;"></textarea>
                                 </div>
                                 <button type="submit" class="btn contact-btn">Submit</button>
+                                <input type="hidden" name="_next" value="thankyou.html">
                             </fieldset>
                         </form>
                     </div>
