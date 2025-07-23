@@ -49,6 +49,10 @@ footer {
   width: 100vw;
 }
 
+.footer-links {
+  color: var(--color-background) !important;
+}
+
 /* INDEX */
 .project-container {
   display: flex;
