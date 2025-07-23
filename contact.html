@@ -44,23 +44,30 @@
             <!-- CONTACT FORM -->
             <div class="container text-center text-white">
                 <div class="row justify-content-center">
-                    <form class="contactform">
-                        <fieldset disabled>
-                            <legend>[DISABLED] Contact</legend>
-                            <div class="mb-3">
-                                <label for="name" class="form-label">Name</label>
-                                <input type="name" class="form-control" id="name" placeholder="Your Name">
-                            </div>
-                            <div class="mb-3">
-                                <label for="emailaddress" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com">
-                            </div>
-                            <div class="mb-5">
-                                <label for="message" class="form-label">Message</label>
-                                <input type="message" class="form-control" id="message" placeholder="Your message here">
-                            </div>
-                        </fieldset>
-                    </form>
+                    <div class="card contactform">
+                        <form>
+                            <fieldset disabled>
+                                <legend>Contact</legend>
+                                <div class="form-group mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="name" class="form-control" id="name" placeholder="your name">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label for="emailaddress" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com">
+                                </div>
+                                <div class="form-check text-start mt-2">
+                                    <input type="checkbox" class="form-check-input" id="message-copy">
+                                    <label class="form-check-label" for="message-copy">Receive copy of message</label>
+                                </div>
+                                <div class=" form-group mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" rows="5" placeholder="your message here..." style="resize: none; overflow-y: auto;"></textarea>
+                                </div>
+                                <button type="submit" class="btn contact-btn">Submit</button>
+                            </fieldset>
+                        </form>
+                    </div>
                 </div>
             </div>
         </main>

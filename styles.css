@@ -103,7 +103,7 @@ footer {
 
 .btn {
   background-color: var(--color-accent) !important;
-  color: var(--color-secondary);
+  color: var(--color-secondary) !important;
 }
 
 /* ABOUT */
@@ -173,4 +173,10 @@ footer {
 /* CONTACT */
 .contactform {
   width: 50%;
+  background-color: var(--color-background);
+}
+
+.contact-btn {
+  border-style: hidden;
+  margin-bottom: 1rem;
 }
