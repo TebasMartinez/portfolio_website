@@ -54,4 +54,4 @@ Contain legal texts.
 ## Domain
 
 ## Compliance
-The website complies with local legal requirements including an Impressum and a Datenschutzerklärung.
+- The website includes an Impressum and a Datenschutzerklärung to comply with local legal requirements.
