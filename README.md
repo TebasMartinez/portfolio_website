@@ -34,6 +34,8 @@ Contain legal texts.
   - Edited styles to some bootstrap classes.
   - Added styles to self-defined classes.
   - Used @media for different styles on desktop and mobile on some elements.
+- **Added self-hosted fonts.**
+  - Used ChatGPT to efficiently generate and edit the CSS for all fonts.
 - **Colour palette:** \
 ![alt text](images/palette4.png)
 
