@@ -46,7 +46,7 @@ Contain legal texts.
 - **Used Bootstrap's tab JavaScript plugin.**
   - Added [navigational tabs](https://getbootstrap.com/docs/5.3/components/navs-tabs/#javascript-behavior) with tabbable panes of local content inside one of the cards for skills, education, and online courses sections in about.html
 - **Created JavaScript file for thankyou page personalization.**
-  - After the contact form is used, JavaScripts edits the text in the thank you page to add the user's name. Safety measures have been taken to avoid JS injection: encoding input before adding it to URL, and then sanitizing the value taken and only including it in the page with .textContent
+  - After the contact form is used, JavaScripts edits the text in the thank you page to add the user's name. Safety measures have been taken to avoid JS injection: encoding input before adding it to URL, and then sanitizing the value taken, only including it in the page with .textContent
 
 ## Favicon
 - Created the image with Canva and adapted it into the different sizes of a favicon package with [favicon.io](https://favicon.io/favicon-converter/)
