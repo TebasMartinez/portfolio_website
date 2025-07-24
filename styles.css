@@ -185,6 +185,12 @@ footer {
   background-color: var(--color-background);
 }
 
+@media (max-width: 600px) { /* Only mobile */
+  .contactform {
+    width: 85% !important;
+  }
+}
+
 .contact-btn {
   border-style: hidden;
   margin-bottom: 1rem;
