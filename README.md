@@ -7,21 +7,23 @@ As a final project for CS50x, I've decided to create my own portfolio website, w
 ## HTML:
 The portfolio website contains 6 HTML files that allow for easy navigation between pages using a [bootstrap navigation bar](https://getbootstrap.com/docs/5.3/components/navbar/).
 
-- Shared elements \
+- **Shared elements** \
 All files include the header, footer, and same background colour, providing a consistent site experience.
 
-- index.html \
+- **index.html** \
 Contains the portfolio homepage. A clean page showing portfolio of projects displayed with [bootstrap cards](https://getbootstrap.com/docs/5.3/components/card/).
-- about.html \
+- **about.html** \
 Contains professional information: intro, skills, education, and experience. Uses:
   - [Bootstrap navigation card](https://getbootstrap.com/docs/5.3/components/card/#navigation) with [navigational tabs](https://getbootstrap.com/docs/5.3/components/navs-tabs/#javascript-behavior) with tabbable panes of local content, 
   - [bootstrap Flush lists](https://getbootstrap.com/docs/5.3/components/list-group/#flush) to separate elements in the education tab and the professional experience,
   - [shields.io badges](https://shields.io/badges) to visually display skills, and
   - [bootstrap badges](https://getbootstrap.com/docs/5.3/components/badge/#pill-badges) to style work experience locations.
-- contact.html \
-Contains a contact form. Uses [bootstrap form layout](https://getbootstrap.com/docs/5.3/forms/layout/#forms) and [formsubmit.io](https://formsubmit.co/) to forward user messages.
-- impressum.html & datenschutzerklaerung.html
-Shared elements + legal texts.
+- **contact.html** \
+Contains a contact form. Uses [bootstrap form layout](https://getbootstrap.com/docs/5.3/forms/layout/#forms), and [formsubmit.io](https://formsubmit.co/) to forward user messages.
+- **thankyou.html** \
+Contains text thanking the user after submitting a message, enhanced with JavaScript.
+- **impressum.html** & **datenschutzerklaerung.html** \
+Contain legal texts.
 
 ## CSS:
 - **Used Bootstrap CSS framework.**
