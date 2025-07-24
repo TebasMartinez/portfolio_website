@@ -27,7 +27,6 @@ Contain legal texts.
 
 ## CSS
 - **Used Bootstrap CSS framework.**
-- **Used CSS Flexbox layout.**
 - **Created styles.css file:**
   - Comment-divided sections for readability.
   - :root pseudo-class to include colour palette.
