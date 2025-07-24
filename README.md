@@ -4,7 +4,7 @@
 \[ WORK IN PROGRESS \] \
 As a final project for CS50x, I've decided to create my own portfolio website, which I plan to keep using after the course as I progress with learning Data Analytics and add more projects.
 
-## HTML:
+## HTML
 The portfolio website contains 6 HTML files that allow for easy navigation between pages using a [bootstrap navigation bar](https://getbootstrap.com/docs/5.3/components/navbar/).
 
 - **Shared elements** \
@@ -25,7 +25,7 @@ Contains text thanking the user after submitting a message, enhanced with JavaSc
 - **impressum.html** & **datenschutzerklaerung.html** \
 Contain legal texts.
 
-## CSS:
+## CSS
 - **Used Bootstrap CSS framework.**
 - **Used CSS Flexbox layout.**
 - **Created styles.css file:**
