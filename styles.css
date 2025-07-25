@@ -157,6 +157,11 @@ footer {
 .skills-nav.active {
   background-color: var(--color-primary) !important;
   color: var(--color-secondary) !important;
+  border-color: var(--color-secondary) !important;
+}
+
+.skills-nav:hover {
+  border-color: var(--color-secondary) !important;
 }
 
 .skills-list {
