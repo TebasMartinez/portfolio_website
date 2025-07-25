@@ -100,6 +100,10 @@ footer {
   flex-direction: column;
 }
 
+.project-card {
+    min-height: 400px;
+}
+
 .card-img-top {
   height: 225px !important;
   width: 100% !important;
@@ -115,6 +119,10 @@ footer {
 .btn {
   background-color: var(--color-accent) !important;
   color: var(--color-secondary) !important;
+}
+
+.project-btn {
+  min-height: 40px !important;
 }
 
 .gitlogo {
