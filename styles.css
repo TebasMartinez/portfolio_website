@@ -80,15 +80,15 @@ footer {
   padding-right: 1rem;
   width: 90%;
   max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 
 @media (min-width: 768px) { /* Only bigger screens */
   .project-card-row {
     justify-content: center;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
