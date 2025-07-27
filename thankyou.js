@@ -21,6 +21,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const nextInput = document.getElementById("next-url");
 
     const encodedName = encodeURIComponent(username);
-    nextInput.value = `https://tebasmartinez.github.io/portfolio_website/thankyou.html?name=${encodedName}`;
+    nextInput.value = `https://www.tebasmartinez.com/thankyou/?name=${encodedName}`;
     });
 });
