@@ -51,7 +51,8 @@ Contain legal texts.
 ## Favicon
 - Created the image with Canva and adapted it into the different sizes of a favicon package with [favicon.io](https://favicon.io/favicon-converter/)
 
-## Domain
+## Hosting & Domain
+- Page hosted on GitHub Pages at https://tebasmartinez.github.io/portfolio_website/ and linked to a custom domain https://www.tebasmartinez.com/
 
 ## Compliance
 - The website includes an Impressum and a Datenschutzerklärung to comply with local legal requirements.
