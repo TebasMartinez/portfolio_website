@@ -78,7 +78,7 @@ footer {
   gap: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  width: 90%;
+  width: 100vw;
   max-width: 100%;
   margin-left: 0;
   margin-right: 0;
@@ -91,6 +91,7 @@ footer {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    width: 90%;
   }
 }
 
