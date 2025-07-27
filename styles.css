@@ -87,6 +87,8 @@ footer {
 @media (min-width: 768px) { /* Only bigger screens */
   .project-card-row {
     justify-content: center;
+    margin-left: 0%;
+    margin-right: 0%;
   }
 }
 
