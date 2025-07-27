@@ -76,8 +76,6 @@ footer {
   overscroll-behavior-x: contain;
   -webkit-overflow-scrolling: touch;
   gap: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
   width: 100vw;
   margin-left: 0;
   margin-right: 0;
