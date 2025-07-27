@@ -6,6 +6,7 @@
   --color-background: #EDCBB1;
   --color-accent: #82972F;
   --color-text: #413A3B;
+  --color-title: #ffe8b1;
 }
 
 /* SHARED ELEMENTS */
@@ -17,7 +18,7 @@
 
 header {
   background-color: var(--color-primary);
-  color: var(--color-accent);
+  color: var(--color-title);
   text-align: center;
   width: 100vw;
 }
@@ -93,8 +94,8 @@ footer {
 }
 
 .card {
-  background-color: var(--color-primary);
-  border-color: var(--color-secondary);
+  background-color: var(--color-background);
+  border-color: var(--color-primary);
   height: 100%;
   max-height: 500px;
   overflow: hidden;
@@ -103,7 +104,7 @@ footer {
 }
 
 .project-card {
-    min-height: 400px;
+  min-height: 400px;
 }
 
 .card-img-top {
@@ -116,6 +117,7 @@ footer {
   max-height: 300px;
   overflow-y: auto;
   flex-grow: 1;
+  color: var(--color-text);
 }
 
 .btn {
@@ -165,9 +167,9 @@ footer {
 }
 
 .skills-nav.active {
-  background-color: var(--color-primary) !important;
-  color: var(--color-secondary) !important;
-  border-color: var(--color-secondary) !important;
+  background-color: var(--color-secondary) !important;
+  color: var(--color-primary) !important;
+  border-color: var(--color-primary) !important;
 }
 
 .skills-nav:hover {
@@ -176,8 +178,8 @@ footer {
 
 .skills-list {
   background-color: var(--color-background);
-  color: var(--color-text);
   border-color: var(--color-secondary);
+  color: var(--color-text);
 }
 
 .exp-list {
