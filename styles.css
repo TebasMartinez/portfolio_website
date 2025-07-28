@@ -208,6 +208,7 @@ footer {
 .contactform {
   width: 50%;
   background-color: var(--color-background);
+  color: var(--color-text);
 }
 
 @media (max-width: 600px) { /* Only mobile */
@@ -219,6 +220,7 @@ footer {
 .contact-btn {
   border-style: hidden;
   margin-bottom: 1rem;
+  color: var(--color-text) !important;
 }
 
 .thanks {
