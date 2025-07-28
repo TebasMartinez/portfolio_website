@@ -9,6 +9,7 @@
   --color-title: #ffe8b1;
 }
 
+
 /* SHARED ELEMENTS */
 
 .border-success {
@@ -173,12 +174,12 @@ footer {
 }
 
 .skills-nav:hover {
-  border-color: var(--color-secondary) !important;
+  border-color: var(--color-primary) !important;
 }
 
 .skills-list {
   background-color: var(--color-background);
-  border-color: var(--color-secondary);
+  border-color: var(--color-primary);
   color: var(--color-text);
 }
 
