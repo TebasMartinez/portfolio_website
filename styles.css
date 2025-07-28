@@ -80,7 +80,7 @@ footer {
   width: 100vw;
   margin-left: 0;
   margin-right: 0;
-  padding-left: 0;
+  padding-left: 0.5rem;
   padding-right: 0;
 }
 
@@ -185,7 +185,7 @@ footer {
 .exp-list {
   background-color: var(--color-background);
   color: var(--color-text);
-  border-color: var(--color-secondary);
+  border-color: var(--color-primary);
   width: 75%;
 }
 
