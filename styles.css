@@ -207,6 +207,7 @@ footer {
 /* CONTACT */
 .contactform {
   width: 50%;
+  max-height: none;
   background-color: var(--color-background);
   color: var(--color-text);
   padding: 1rem;
