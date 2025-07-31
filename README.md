@@ -1,7 +1,7 @@
 # PORTFOLIO WEBSITE
 #### Video Demo:  <URL HERE>
 
-<center><img src="images/CS50x-Final-Project.png" alt="CS50x Final Project title page" width="700"></center>
+<p align="center"><img src="images/CS50x-Final-Project.png" alt="CS50x Final Project title page" width="700"></p>
 
 ## Description:
 \[ WORK IN PROGRESS \] \
@@ -42,7 +42,7 @@ Contain legal texts.
 - **Colour palette:**
   - Used coolors.co to define my site's palette: https://coolors.co/edcbb1-8af3ff-82972f-ffe8b1-19535f-413a3b
   - Defined the colours under :root in styles.css
-<center><img src="images/palette.png" alt="Colour palette" width="500"></center>
+<p align="center"><img src="images/palette.png" alt="Colour palette" width="500"></p>
 
 ### JavaScript
 - **Used Bootstrap's tab JavaScript plugin.**
