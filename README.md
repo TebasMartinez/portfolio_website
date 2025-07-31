@@ -56,4 +56,4 @@ Contain legal texts.
 - Page hosted on GitHub Pages at https://tebasmartinez.github.io/portfolio_website/ and linked to a custom domain https://www.tebasmartinez.com/
 
 ### Compliance
-- The website includes an Impressum and a Datenschutzerklärung to comply with local legal requirements.
+- To comply with local legal requirements, the website includes an Impressum, a Datenschutzerklärung, and a cookies disclaimer under the contact form.
