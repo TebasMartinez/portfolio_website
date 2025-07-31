@@ -1,5 +1,8 @@
 # PORTFOLIO WEBSITE
 #### Video Demo:  <URL HERE>
+
+<center><img src="images/CS50x-Final-Project.png" alt="CS50x Final Project title page" width="700"></center>
+
 ## Description:
 \[ WORK IN PROGRESS \] \
 As a final project for CS50x, I've decided to create my own portfolio website, which I plan to keep using after the course as I progress with learning Data Analytics and add more projects.
@@ -36,12 +39,10 @@ Contain legal texts.
   - Used @media for different styles on desktop and mobile on some elements.
 - **Added self-hosted fonts.**
   - Used ChatGPT to efficiently generate and edit the CSS for all fonts.
-- **Colour palette:** \
-![alt text](images/palette4.png)
-
-  - Used coolors.co to define my site's palette: https://coolors.co/edcbb1-8af3ff-82972f-19535f-413a3b
-  - Added #ffe8b1 colour for titles, which provides better contrast against the header's background colour.
+- **Colour palette:**
+  - Used coolors.co to define my site's palette: https://coolors.co/edcbb1-8af3ff-82972f-ffe8b1-19535f-413a3b
   - Defined the colours under :root in styles.css
+<center><img src="images/palette.png" alt="Colour palette" width="500"></center>
 
 ### JavaScript
 - **Used Bootstrap's tab JavaScript plugin.**
