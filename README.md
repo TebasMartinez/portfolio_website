@@ -1,7 +1,7 @@
 # PORTFOLIO WEBSITE
 #### Video Demo:  <URL HERE>
 
-<p align="center"><img src="images/CS50x-Final-Project.png" alt="CS50x Final Project title page" width="700"></p>
+<p align="center"><img src="images/CS50x-Final-Project.svg" alt="CS50x Final Project title page" width="700"></p>
 
 ## Description:
 \[ WORK IN PROGRESS \] \
