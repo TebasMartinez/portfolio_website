@@ -1,5 +1,5 @@
 # PORTFOLIO WEBSITE
-#### Video Demo:  <URL HERE>
+#### Video Demo:  https://youtu.be/_yQmDcpcc80?si=sWQOpIOo4lN7I0zB
 
 <p align="center"><img src="images/CS50x-Final-Project.svg" alt="CS50x Final Project title page" width="700"></p>
 
