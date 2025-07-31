@@ -4,7 +4,7 @@
 <p align="center"><img src="images/CS50x-Final-Project.svg" alt="CS50x Final Project title page" width="700"></p>
 
 ## Description:
-As a final project for CS50x, I've decided to create my own portfolio website, which I plan to keep using after the course as I progress with learning Data Analytics and add more projects.
+As a final project for CS50x, I've created my own portfolio website, which I plan to keep using after the course as I progress with learning Data Analytics and add more projects.
 
 ### HTML
 The portfolio website contains 6 HTML files and allows easy navigation between pages using a [bootstrap navigation bar](https://getbootstrap.com/docs/5.3/components/navbar/). The files have been organised in directories for a cleaner URL structure.
