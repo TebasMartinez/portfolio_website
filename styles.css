@@ -216,6 +216,8 @@ footer {
 @media (max-width: 600px) { /* Only mobile */
   .contactform {
     width: 85% !important;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
 
