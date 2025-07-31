@@ -210,14 +210,13 @@ footer {
   max-height: none;
   background-color: var(--color-background);
   color: var(--color-text);
-  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 600px) { /* Only mobile */
   .contactform {
     width: 85% !important;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
   }
 }
 
