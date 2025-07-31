@@ -209,7 +209,7 @@ footer {
   width: 50%;
   background-color: var(--color-background);
   color: var(--color-text);
-  overflow: hidden;
+  padding: 1rem;
 }
 
 @media (max-width: 600px) { /* Only mobile */
