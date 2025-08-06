@@ -12,24 +12,24 @@ The portfolio website contains 6 HTML files and allows easy navigation between p
 - **Shared elements** \
 All files include the header, footer, and same background colour, providing a consistent site experience.
 
-- **/index.html** \
+- **`/index.html`** \
 Contains the portfolio homepage. A clean page showing portfolio of projects displayed with [bootstrap cards](https://getbootstrap.com/docs/5.3/components/card/).
-- **/about/index.html** \
+- **`/about/index.html`** \
 Contains professional information: intro, skills, education, and experience. Uses:
   - [Bootstrap navigation card](https://getbootstrap.com/docs/5.3/components/card/#navigation) with [navigational tabs](https://getbootstrap.com/docs/5.3/components/navs-tabs/#javascript-behavior) with tabbable panes of local content, 
   - [bootstrap Flush lists](https://getbootstrap.com/docs/5.3/components/list-group/#flush) to separate elements in the education tab and the professional experience,
   - [shields.io badges](https://shields.io/badges) to visually display skills, and
   - [bootstrap badges](https://getbootstrap.com/docs/5.3/components/badge/#pill-badges) to style work experience locations.
-- **/contact/index.html** \
+- **`/contact/index.html`** \
 Contains a contact form. Uses [bootstrap form layout](https://getbootstrap.com/docs/5.3/forms/layout/#forms), and [formsubmit.io](https://formsubmit.co/) to forward user messages.
-- **/thankyou/index.html** \
+- **`/thankyou/index.html`** \
 Contains text thanking the user after submitting a message, enhanced with JavaScript.
-- **/impressum/index.html** & **/datenschutzerklaerung/index.html** \
+- **`/impressum/index.html`** & **`/datenschutzerklaerung/index.html`** \
 Contain legal texts.
 
 ### CSS
 - **Used Bootstrap CSS framework.**
-- **Created styles.css file:**
+- **Created `styles.css` file:**
   - Comment-divided sections for readability.
   - :root pseudo-class to include colour palette.
   - Added styles to header, body, and footer tags.
@@ -40,12 +40,12 @@ Contain legal texts.
   - Used ChatGPT to efficiently generate and edit the CSS for all fonts.
 - **Colour palette:**
   - Used coolors.co to define my site's palette: https://coolors.co/edcbb1-8af3ff-82972f-ffe8b1-19535f-413a3b
-  - Defined the colours under :root in styles.css
+  - Defined the colours under :root in `styles.css`
 <p align="center"><img src="images/palette.png" alt="Colour palette" width="500"></p>
 
 ### JavaScript
 - **Used Bootstrap's tab JavaScript plugin.**
-  - Added [navigational tabs](https://getbootstrap.com/docs/5.3/components/navs-tabs/#javascript-behavior) with tabbable panes of local content inside one of the cards for skills, education, and online courses sections in about.html
+  - Added [navigational tabs](https://getbootstrap.com/docs/5.3/components/navs-tabs/#javascript-behavior) with tabbable panes of local content inside one of the cards for skills, education, and online courses sections in `about.html`
 - **Created JavaScript file for thankyou page personalization.**
   - After the contact form is used, JavaScripts edits the text in the thank you page to add the user's name. Safety measures have been taken to avoid JS injection: encoding input before adding it to URL, and then sanitizing the value taken, only including it in the page with .textContent
 
