@@ -159,6 +159,7 @@ footer {
   border-color: var(--color-background);
   color: var(--color-text);
   width: 70%;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   text-align: justify;
