@@ -161,6 +161,7 @@ footer {
   width: 70%;
   height: auto;
   min-height: auto;
+  max-height: fit-content !important;
   overflow: visible;
   display: flex;
   flex-direction: column;
