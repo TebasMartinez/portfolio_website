@@ -14,6 +14,36 @@
         <link rel="apple-touch-icon" href="favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-chrome-192x192.png">
         <link rel="icon" type="image/png" sizes="512x512" href="favicon/android-chrome-512x512.png">
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const buttons = document.querySelectorAll(".filter-btn");
+            const cards = document.querySelectorAll(".project-card");
+
+            buttons.forEach(btn => {
+                btn.addEventListener("click", () => {
+                    const filter = btn.dataset.filter;
+
+                    cards.forEach(card => {
+                        const category = card.dataset.category;
+
+                        if (filter === "all" || category.includes(filter)) {
+                            // Show
+                            card.style.opacity = "1";
+                            card.style.pointerEvents = "auto";
+                            card.style.position = "relative";
+                        } else {
+                            // Hide
+                            card.style.opacity = "0";
+                            card.style.pointerEvents = "none";
+                            card.style.position = "absolute";
+                        }
+                    });
+                });
+            });
+        });
+        </script>
+
     </head>
 
     <body class="d-flex flex-column min-vh-100">
@@ -38,6 +68,13 @@
             </ul>
         </header>
 
+        <!-- FILTER -->
+        <div class="text-center mt-4">
+            <button class="btn filter-btn mx-1" data-filter="all">All</button>
+            <button class="btn filter-btn mx-1" data-filter="data">Data</button>
+            <button class="btn filter-btn mx-1" data-filter="web">Web</button>
+        </div>
+
         <!-- CONTENT --> 
         <main class="flex-grow-1 d-flex justify-content-center align-items-center">
 
@@ -46,7 +83,7 @@
                 <div class="project-card-row d-flex flex-nowrap overflow-auto gap-3 py-3">
 
                     <!--DA DAX-->
-                    <div class="card project-card flex-shrink-0" style="width: 18rem;">
+                    <div class="card project-card flex-shrink-0" style="width: 18rem;" data-category="data">
                         <div class="card flex-fill">
                             <img src="images/DA-DAX-project.svg" class="card-img-top" alt="Github repo image of DAX project">
                             <div class="card-body project-card-body">
@@ -91,7 +128,7 @@
                     </div>    
 
                     <!--DA HIV-PrEP project card-->
-                    <div class="card project-card flex-shrink-0" style="width: 18rem;">
+                    <div class="card project-card flex-shrink-0" style="width: 18rem;" data-category="data">
                         <div class="card flex-fill">
                             <img src="images/DA-HIV-PrEP-project.svg" class="card-img-top" alt="Github repo image of Data Analysis of HIV & PrEP">
                             <div class="card-body project-card-body">
@@ -131,7 +168,7 @@
                     </div>    
 
                     <!--DA DB Delays project card-->
-                    <div class="card project-card flex-shrink-0" style="width: 18rem;">
+                    <div class="card project-card flex-shrink-0" style="width: 18rem;" data-category="data">
                         <div class="card flex-fill">
                             <img src="images/DA-DB-delays-project.svg" class="card-img-top" alt="Dashboard image of Data Analysis of Deutsche Bahn delays">
                             <div class="card-body project-card-body">
@@ -173,7 +210,7 @@
                     </div>    
 
                     <!--Portfolio website project card-->
-                    <div class="card project-card flex-shrink-0" style="width: 18rem;">
+                    <div class="card project-card flex-shrink-0" style="width: 18rem;" data-category="web">
                         <div class="card flex-fill">
                             <img src="images/portfolio-project.svg" class="card-img-top" alt="portfolio">
                             <div class="card-body project-card-body">
